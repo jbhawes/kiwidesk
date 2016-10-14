@@ -1,0 +1,81 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.pane {
+   background-color: #000;
+   color: #c3c3c3;
+}
+
+body {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.message {
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  color: #777;
+  font-weight: 200;
+  text-align: center;
+  margin-top: -125px;
+  margin-left: -250px;
+}
+
+.message h1 {
+  font-size: 50px;
+  font-weight: 100;
+  color: #333;
+}
+
+.message div {
+  margin-bottom: 10px;
+}
+
+.btn-black {
+  background-color:green;
+  color:#fff;
+  width: 4px; 
+  padding:0;
+  float: right;
+  border: 0;
+  margin-top:1px;
+}
+
+.disabled {
+  background-color: #c6c6c6;
+  color:#fff;
+  width: 4px; 
+  padding:0;
+  float: right;
+  border: 0;
+  margin-top:1px;
+}
+
+.btn-label {
+  display: block;
+  border-bottom: 1px solid #777;
+  text-align: right;
+  padding-top:4px;
+  padding-bottom:2px;
+}
+
+.btn-label  > span {
+  padding:4px;
+  margin:2px;
+}
+
+
+.terminal {
+  margin:4px; 
+  padding:2px; 
+  border: 1px solid green; 
+  border-radius: 4px;
+  height:98%;
+}
