@@ -4,6 +4,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   background-color: #000;
+  background: url('../images/kiwi_action_skate.png') center center no-repeat;
 }
 
 .pane {
